@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-if __name__ == " __main__":
+if __name__ == "__main__":
     import sys
     i = len(sys.argv) - 1
     if i != 3:
-        print(f"Usage: ./100-my_calculator.py <a> <operator> <b>\n")
+        print(f"Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
     op = sys.argv[2]
@@ -17,9 +17,9 @@ if __name__ == " __main__":
 
     if op == '+':
         print("{} + {} = {}".format(a, b, add(a, b)))
-    if op == '-':
+    elif op == '-':
         print("{} - {} = {}".format(a, b, sub(a, b)))
-    if op == '*':
+    elif op == '*':
         print("{} * {} = {}".format(a, b, mul(a, b)))
-    if op =='/':
+    else:
         print("{} / {} = {}".format (a, b, div(a, b)))
