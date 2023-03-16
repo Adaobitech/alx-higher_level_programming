@@ -1,1 +1,1 @@
-This is a folder for SQL introduction
+This is a folder for SQL Introduction
