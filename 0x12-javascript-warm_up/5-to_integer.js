@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-iconst [arg1] = process.argv.slice(2);
+const [arg1] = process.argv.slice(2);
 const parsedInt = parseInt(arg1);
 
 if (!isNaN(parsedInt)) {
