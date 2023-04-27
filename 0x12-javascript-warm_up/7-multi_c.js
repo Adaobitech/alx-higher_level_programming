@@ -8,4 +8,5 @@ if (isNaN(parsedInt)) {
 } else {
   for (let i = 0; i < parsedInt; i++) {
     console.log('C is fun');
+  }
 }
